@@ -3,7 +3,7 @@ package com.company;
 import java.util.ArrayList;
 
 public class Sort {
-    public ArrayList<Integer> BubbleSort(ArrayList<Integer> values) {
+    public ArrayList<Integer> bubbleSort(ArrayList<Integer> values) {
         int temp;
         for (int i = 0; i < values.size(); i++) {
             for (int j = 0; j < values.size() - 1; j++) {
